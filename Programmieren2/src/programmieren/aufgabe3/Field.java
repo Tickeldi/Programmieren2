@@ -4,7 +4,7 @@ public final class Field {
 	
 	private int x;
 	private int y;
-		
+
 	public Field(int x, int y) {
 		if(x > 5 || y > 5 || x < 1 || y < 1) throw new IllegalArgumentException("Fehler: Nicht erlaubter Parameter.");
 		this.x = x;
